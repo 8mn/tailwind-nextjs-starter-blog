@@ -40,6 +40,9 @@ export default function Home({ posts }) {
                         <time dateTime={date}>{formatDate(date)}</time>
                       </dd>
                     </dl>
+                    {/* <div className="border-2 h-full before:content-[''] height:calc(100% + 13px) width:calc(100% + 13px)">
+                      
+                    </div> */}
                     <div className="space-y-5 xl:col-span-3">
                       <div className="space-y-6">
                         <div>
