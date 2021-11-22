@@ -4,6 +4,7 @@ import Tag from '@/components/Tag'
 import siteMetadata from '@/data/siteMetadata'
 import { getAllFilesFrontMatter } from '@/lib/mdx'
 import formatDate from '@/lib/utils/formatDate'
+import Image from '@/components/Image'
 
 const MAX_DISPLAY = 5
 
@@ -29,7 +30,7 @@ export default function Home({ posts }) {
         <ul className="divide-y divide-gray-200 dark:divide-gray-700">
           {!posts.length && 'No posts found.'}
           {posts.slice(0, MAX_DISPLAY).map((frontMatter) => {
-            const { slug, date, title, summary, tags } = frontMatter
+            const { slug, date, title, previewImg, summary, tags } = frontMatter
             return (
               <li key={slug} className="py-12">
                 <article>
@@ -40,6 +41,7 @@ export default function Home({ posts }) {
                         <time dateTime={date}>{formatDate(date)}</time>
                       </dd>
                     </dl>
+
                     <div className="space-y-5 xl:col-span-3">
                       <div className="space-y-6">
                         <div>
