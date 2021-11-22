@@ -33,11 +33,8 @@ class MyDocument extends Document {
             integrity="sha384-Um5gpz1odJg5Z4HAmzPtgZKdTBHZdw8S29IecapCSB31ligYPhHQZMIlWLYQGVoc"
             crossOrigin="anonymous"
           />
-
-          <link rel="preconnect" href="https://fonts.googleapis.com" />
-          <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
           <link
-            href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap"
+            href="https://api.fontshare.com/css?f[]=gambetta@400,500,600,700&display=swap"
             rel="stylesheet"
           />
         </Head>

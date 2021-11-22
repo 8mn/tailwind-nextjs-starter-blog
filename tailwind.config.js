@@ -18,7 +18,7 @@ module.exports = {
       },
       fontFamily: {
         sans: ['Inter', ...defaultTheme.fontFamily.sans],
-        serif: ['Merriweather', 'serif'],
+        serif: ['Gambetta', 'serif'],
       },
       colors: {
         primary: colors.rose,
