@@ -1,5 +1,5 @@
 const siteMetadata = {
-  title: 'Next.js Starter Blog',
+  title: 'Manish Basargekar',
   author: 'Manish Basargekar',
   headerTitle: 'MNSH',
   description: '',
