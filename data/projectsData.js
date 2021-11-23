@@ -20,7 +20,7 @@ const projectsData = [
     description: `Imagine being able to travel back in time or to the future. Simple turn the knob
     to the desired date and press "Go". No more worrying about lost keys or
     forgotten handphones with this simple yet affordable solution.`,
-    imgSrc: '/static/images/ocean.jpeg',
+    imgSrc: '/static/images/frame9.jpg',
     href: '/blog/the-time-machine',
   },
 ]

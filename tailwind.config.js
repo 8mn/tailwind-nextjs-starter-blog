@@ -18,7 +18,8 @@ module.exports = {
       },
       fontFamily: {
         sans: ['Inter', ...defaultTheme.fontFamily.sans],
-        serif: ['Gambetta', 'serif'],
+        // serif: ['Gambetta', 'serif'],
+        serif: ['IBM Plex Mono', 'serif'],
       },
       colors: {
         primary: colors.rose,
