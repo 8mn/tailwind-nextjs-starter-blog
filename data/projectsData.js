@@ -5,7 +5,7 @@ const projectsData = [
     and more. Google has many features to help you find exactly what you're looking
     for.`,
     imgSrc: '/static/images/animated-eye.svg',
-    href: 'https://www.google.com',
+    href: '/blog/animated-hover-effect',
   },
   {
     title: 'Social grid icons',
@@ -13,7 +13,7 @@ const projectsData = [
     to the desired date and press "Go". No more worrying about lost keys or
     forgotten handphones with this simple yet affordable solution.`,
     imgSrc: '/static/images/social-icons.svg',
-    href: '/blog/the-time-machine',
+    href: '/blog/social-grid-icons',
   },
   {
     title: 'Good morning images',
@@ -21,7 +21,15 @@ const projectsData = [
     to the desired date and press "Go". No more worrying about lost keys or
     forgotten handphones with this simple yet affordable solution.`,
     imgSrc: '/static/images/frame9.jpg',
-    href: '/blog/the-time-machine',
+    href: '/blog/good-morning-images',
+  },
+  {
+    title: 'CSS is awesome',
+    description: `Imagine being able to travel back in time or to the future. Simple turn the knob
+    to the desired date and press "Go". No more worrying about lost keys or
+    forgotten handphones with this simple yet affordable solution.`,
+    imgSrc: '/static/images/css.svg',
+    href: '/blog/css-is-awesome',
   },
 ]
 
